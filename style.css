@@ -1,0 +1,102 @@
+body{
+    font-family:  monospace,'Courier New', Courier;
+}
+.navbar-nav {
+    border: 1px solid;
+    text-align: center;
+    background: white;
+}
+.navbar>.container {
+    padding: 0%;
+    margin-left: 4%;
+}
+h1.Resturet_name{
+    cursor: default;
+}
+h1.Menu{
+    margin: 10px 0px 25px 0px;
+    text-align: center;
+}
+h1.Menu:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: default;
+}
+li.nav-item:hover{
+    font-size: large;
+    color: #005e56;
+    font-weight: bold;
+    font-style: italic;
+}
+a.nav-link{
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0px;
+    border: 1px solid;
+}
+.navbar{
+    padding: 0%;
+    background: lightgrey;
+}
+
+.navbar-toggler-icon{
+    height: 1.25em;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+span.navbar-toggler-icon:hover{
+    background-color:whitesmoke ; /* Replace with the color of your choice*/ 
+    border:2px solid whitesmoke;
+}
+.navbar-toggler.d-block.d-sm-none{
+    border: 0ch;
+}
+div > h4{
+    text-align: center;
+    font-style: italic;
+}
+div > h4:hover{
+    font-weight: 600;
+    font-style: italic;
+}
+.row > .container{
+    background-color: lightgray;
+    cursor: default;
+}
+a#back-to-chicken:hover{
+    color: red;
+    text-decoration: none;
+}
+/* Laptops*/
+@media (min-width: 992px){
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30%;
+        margin-left:2% ;
+        margin-right: 1%;
+    }
+}
+
+/* Tablet and ipad*/
+@media (min-width: 576px) and (max-width:992px){
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 44%;
+        margin: 2% 2% 0 3%;
+    }
+    .col-md-8{
+        width: 93%;
+        margin-left: 3%;
+
+    }
+}
+/* small mobiles*/
+@media (max-width:575px){
+    .container-sm{
+        width: 91%;
+        margin-top: 3%;
+        font-size: small;
+        font-style: normal;
+    } 
+}
